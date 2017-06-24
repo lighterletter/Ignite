@@ -5,6 +5,7 @@ import java.util.List;
 
 import hiphophacktivist.ignite.Model.CourseListing;
 import hiphophacktivist.ignite.network.NetworkServices;
+import io.reactivex.Observable;
 import retrofit2.Call;
 
 public class NYCOpenDataClient {
@@ -30,7 +31,7 @@ public class NYCOpenDataClient {
         return instance;
     }
 
-    public Call<List<CourseListing>> getOpenDataResponse(){
+    public Observable<List<CourseListing>> getOpenDataResponse(){
         return apiService.getListOfPhotos();
     }
 
