@@ -5,7 +5,7 @@ import android.os.Bundle;
 
 import java.util.List;
 
-import hiphophacktivist.ignite.Model.JobPosting;
+import hiphophacktivist.ignite.Model.CourseListing;
 import hiphophacktivist.ignite.network.nyc_open_data.NYCOpenDataClient;
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity {
         NYCOpenDataClient
                 .getInstance()
                 .getOpenDataResponse()
-                .enqueue(new Callback<List<JobPosting>>() {
+                .enqueue(new Callback<List<CourseListing>>() {
                     @Override
-                    public void onResponse(Call<List<JobPosting>> call, Response<List<JobPosting>> response) {
+                    public void onResponse(Call<List<CourseListing>> call, Response<List<CourseListing>> response) {
                         System.out.println(response.body().get(0).getBorough());
                     }
 
                     @Override
-                    public void onFailure(Call<List<JobPosting>> call, Throwable t) {
+                    public void onFailure(Call<List<CourseListing>> call, Throwable t) {
                         System.out.println(call.request().url());
                     }
                 });

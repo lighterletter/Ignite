@@ -3,7 +3,7 @@ package hiphophacktivist.ignite.Model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class JobPosting {
+public class CourseListing {
 //    "address1": "3907 PRINCE ST STE 2C",
 //            "borough": "Queens",
 //            "city": "FLUSHING",

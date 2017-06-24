@@ -3,7 +3,7 @@ package hiphophacktivist.ignite.network.nyc_open_data;
 
 import java.util.List;
 
-import hiphophacktivist.ignite.Model.JobPosting;
+import hiphophacktivist.ignite.Model.CourseListing;
 import hiphophacktivist.ignite.network.NetworkServices;
 import retrofit2.Call;
 
@@ -30,7 +30,7 @@ public class NYCOpenDataClient {
         return instance;
     }
 
-    public Call<List<JobPosting>> getOpenDataResponse(){
+    public Call<List<CourseListing>> getOpenDataResponse(){
         return apiService.getListOfPhotos();
     }
 

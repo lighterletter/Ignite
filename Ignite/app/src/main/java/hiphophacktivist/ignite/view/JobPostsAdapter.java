@@ -5,18 +5,17 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 
-import java.util.ArrayList;
 import java.util.List;
 
-import hiphophacktivist.ignite.Model.JobPosting;
+import hiphophacktivist.ignite.Model.CourseListing;
 import hiphophacktivist.ignite.R;
 
 public class JobPostsAdapter extends RecyclerView.Adapter<JobPostViewHolder> {
 
 
-    private final List<JobPosting> mJobList;
+    private final List<CourseListing> mJobList;
 
-    public JobPostsAdapter(List<JobPosting> jobList) {
+    public JobPostsAdapter(List<CourseListing> jobList) {
         this.mJobList = jobList;
     }
 
@@ -37,7 +36,7 @@ public class JobPostsAdapter extends RecyclerView.Adapter<JobPostViewHolder> {
         return 0;
     }
 
-    public void setJobPostList(List<JobPosting> photoList){
+    public void setJobPostList(List<CourseListing> photoList){
         mJobList.clear();
         mJobList.addAll(photoList);
         notifyDataSetChanged();
