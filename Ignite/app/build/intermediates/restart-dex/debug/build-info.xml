@@ -1,128 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86_64,x86"
-    api-level="25"
+    abi="x86"
+    api-level="24"
     build-mode="COLD"
-    density="420dpi"
+    density="xxhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498326763002"
-    token="7706211426378696253"
+    timestamp="1498331752535"
+    token="-2160916259515148031"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1622" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="43" />
+        duration="0" />
     <task
         name="verifier"
-        duration="8" />
-
-    <artifact
-        location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
+        duration="0" />
 
     <build
         build-mode="FULL"
-        timestamp="1498324129516"
+        timestamp="1498331732823"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/outputs/apk/app-debug.apk"
+            location="/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/outputs/apk/app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498324341175"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1498324784738"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1498326601311"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1498326763002"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-    </build>
+        timestamp="1498331752535"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

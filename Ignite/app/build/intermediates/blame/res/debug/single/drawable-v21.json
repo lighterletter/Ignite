@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

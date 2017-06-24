@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+        "outputFile": "/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/values-v22/values-v22.xml",
+                    "file": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/values-v22/values-v22.xml",
+                    "file": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 548
                 },
                 "from": {
-                    "file": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/values-v22/values-v22.xml",
+                    "file": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,7 +71,7 @@
                     "endOffset": 896
                 },
                 "from": {
-                    "file": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/values-v22/values-v22.xml",
+                    "file": "/Users/lighterletter/.android/build-cache/4bf8ad6cf8819bec3cc2c911a83cc6ee097b3692/output/res/values-v22/values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

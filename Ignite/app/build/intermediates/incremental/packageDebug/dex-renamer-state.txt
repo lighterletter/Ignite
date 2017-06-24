@@ -1,7 +1,7 @@
-#Sat Jun 24 13:12:33 EDT 2017
-base.0=/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8292e81559b204869a06083334ccead63c4d1b5f
+#Sat Jun 24 15:15:37 EDT 2017
+base.0=/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d82125d90bdb4a58bdb05084d68121137821e211
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_771d67556542aad0a493ce85d0366ac526e5984f/classes.dex
-base.1=/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_771d67556542aad0a493ce85d0366ac526e5984f
-file.0=/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8292e81559b204869a06083334ccead63c4d1b5f/classes.dex
+file.1=/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_25577c88f9ec06b88561a790e1862d3eab93a975/classes.dex
+base.1=/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_25577c88f9ec06b88561a790e1862d3eab93a975
+file.0=/Users/lighterletter/Desktop/HipHopHacktivist/Ignite/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d82125d90bdb4a58bdb05084d68121137821e211/classes.dex
