@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/andresarango/Desktop/ProjectsAC33/throwaways/Ignite/Ignite/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/andresarango/.android/build-cache/8b3cacf118e61232c0e9d3760780bb352f9912a4/output/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
