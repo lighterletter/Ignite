@@ -15,5 +15,12 @@ class ProgramListingViewHolder extends RecyclerView.ViewHolder {
 
     public void bind(CourseListing courseListing) {
         ((TextView)itemView.findViewById(R.id.listing)).setText(courseListing.getCourseName());
+        ((TextView) itemView.findViewById(R.id.listing_borough)).setText(courseListing.getBorough());
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }

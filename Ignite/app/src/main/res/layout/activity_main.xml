@@ -7,10 +7,21 @@
     android:orientation="vertical">
 
     <EditText
-        android:id="@+id/search_bar"
+        android:id="@+id/listing_search_bar"
         android:hint="search by zip or borough"
+        android:inputType="text"
+        android:lines="1"
+        android:imeOptions="actionDone"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/all_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="All"
+        />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"

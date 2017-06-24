@@ -15,7 +15,9 @@ interface NYCOpenDatService {
     @GET(JSON_PATH)
     Call<List<CourseListing>> getListOfCourses();
 
+    @GET(JSON_PATH)
     Call<List<CourseListing>> getListOfPhotosByBorough(@Query("borough") String borough);
 
+    @GET(JSON_PATH)
     Call<List<CourseListing>> getListOfPhotosByZip(@Query("zip_code") int zip);
 }
