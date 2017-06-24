@@ -53,6 +53,9 @@ public class CourseListing {
     @SerializedName("zip_code")
     String zipcode;
 
+    @SerializedName("phone1")
+    String phoneNumber;
+
     public String getAddress() {
         return address;
     }
@@ -104,4 +107,10 @@ public class CourseListing {
     public String getZipcode() {
         return zipcode;
     }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
 }
+
+
