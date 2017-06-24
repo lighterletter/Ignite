@@ -33,7 +33,7 @@ public class JobPostsAdapter extends RecyclerView.Adapter<JobPostViewHolder> {
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mJobList.size();
     }
 
     public void setJobPostList(List<CourseListing> photoList){
