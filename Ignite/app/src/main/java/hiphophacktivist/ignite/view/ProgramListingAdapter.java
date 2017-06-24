@@ -10,33 +10,33 @@ import java.util.List;
 import hiphophacktivist.ignite.Model.CourseListing;
 import hiphophacktivist.ignite.R;
 
-public class JobPostsAdapter extends RecyclerView.Adapter<JobPostViewHolder> {
+public class ProgramListingAdapter extends RecyclerView.Adapter<ProgramListingViewHolder> {
 
 
     private final List<CourseListing> mJobList;
 
-    public JobPostsAdapter(List<CourseListing> jobList) {
+    public ProgramListingAdapter(List<CourseListing> jobList) {
         this.mJobList = jobList;
     }
 
     @Override
-    public JobPostViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new JobPostViewHolder(LayoutInflater
+    public ProgramListingViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        return new ProgramListingViewHolder(LayoutInflater
                 .from(parent.getContext())
                 .inflate(R.layout.viewholder_job_post,parent,false));
     }
 
     @Override
-    public void onBindViewHolder(JobPostViewHolder holder, int position) {
+    public void onBindViewHolder(ProgramListingViewHolder holder, int position) {
         holder.bind(mJobList.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mJobList.size();
     }
 
-    public void setJobPostList(List<CourseListing> photoList){
+    public void setListings(List<CourseListing> photoList){
         mJobList.clear();
         mJobList.addAll(photoList);
         notifyDataSetChanged();
