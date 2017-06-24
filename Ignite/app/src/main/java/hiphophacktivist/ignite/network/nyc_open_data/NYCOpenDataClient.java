@@ -31,7 +31,15 @@ public class NYCOpenDataClient {
     }
 
     public Call<List<CourseListing>> getOpenDataResponse(){
-        return apiService.getListOfPhotos();
+        return apiService.getListOfCourses();
+    }
+
+    public Call<List<CourseListing>> getDataOnBorough(String borough){
+        return apiService.getListOfPhotosByBorough(borough);
+    }
+
+    public Call<List<CourseListing>> getDataOnZip(int zip){
+        return apiService.getListOfPhotosByZip(zip);
     }
 
 }

@@ -13,7 +13,9 @@ interface NYCOpenDatService {
     String JSON_PATH = "/resource/5teq-yyit.json";
 
     @GET(JSON_PATH)
-    Call<List<CourseListing>> getListOfPhotos();
+    Call<List<CourseListing>> getListOfCourses();
 
     Call<List<CourseListing>> getListOfPhotosByBorough(@Query("borough") String borough);
+
+    Call<List<CourseListing>> getListOfPhotosByZip(@Query("zip_code") int zip);
 }

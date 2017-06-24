@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<List<CourseListing>> call, Response<List<CourseListing>> response) {
                         List<CourseListing> list = response.body();
-
                         adapter.setListings(list);
                     }
 

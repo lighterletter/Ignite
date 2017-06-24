@@ -13,10 +13,10 @@ import hiphophacktivist.ignite.R;
 public class ProgramListingAdapter extends RecyclerView.Adapter<ProgramListingViewHolder> {
 
 
-    private final List<CourseListing> mJobList;
+    private final List<CourseListing> courseList;
 
-    public ProgramListingAdapter(List<CourseListing> jobList) {
-        this.mJobList = jobList;
+    public ProgramListingAdapter(List<CourseListing> courseList) {
+        this.courseList = courseList;
     }
 
     @Override
@@ -28,17 +28,17 @@ public class ProgramListingAdapter extends RecyclerView.Adapter<ProgramListingVi
 
     @Override
     public void onBindViewHolder(ProgramListingViewHolder holder, int position) {
-        holder.bind(mJobList.get(position));
+        holder.bind(courseList.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return mJobList.size();
+        return courseList.size();
     }
 
     public void setListings(List<CourseListing> photoList){
-        mJobList.clear();
-        mJobList.addAll(photoList);
+        courseList.clear();
+        courseList.addAll(photoList);
         notifyDataSetChanged();
     }
 }
