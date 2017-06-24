@@ -56,6 +56,9 @@ public class CourseListing {
     @SerializedName("phone1")
     String phoneNumber;
 
+    @SerializedName("organization_name")
+    String organization;
+
     public String getAddress() {
         return address;
     }
@@ -110,6 +113,10 @@ public class CourseListing {
 
     public String getPhoneNumber() {
         return phoneNumber;
+    }
+
+    public String getOrganization() {
+        return organization;
     }
 }
 

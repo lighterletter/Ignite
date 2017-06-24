@@ -32,6 +32,8 @@ class ProgramListingViewHolder extends RecyclerView.ViewHolder {
                 intent.putExtra(DetailsActivity.PHONE_NUMBER, courseListing.getPhoneNumber());
                 intent.putExtra(DetailsActivity.WEBSITE,courseListing.getWebsite());
                 intent.putExtra(DetailsActivity.DURATION, courseListing.getDuration());
+                intent.putExtra(DetailsActivity.ORGANIZATION, courseListing.getOrganization());
+                intent.putExtra(DetailsActivity.COURSE, courseListing.getCourseName());
                 itemView.getContext().startActivity(intent);
             }
         });

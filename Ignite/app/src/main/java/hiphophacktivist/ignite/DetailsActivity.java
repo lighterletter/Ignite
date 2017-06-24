@@ -16,6 +16,8 @@ public class DetailsActivity extends AppCompatActivity{
     public static final String PHONE_NUMBER = "PHONE NUMBER";
     public static final String WEBSITE = "WEBSITE";
     public static final String DURATION = "DURATION";
+    public static final String ORGANIZATION = "ORGANIZATION";
+    public static final String COURSE = "COURSE";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -26,13 +28,22 @@ public class DetailsActivity extends AppCompatActivity{
         TextView phoneNumberTV = (TextView) findViewById(R.id.textview_phone_number);
         TextView websiteTV = (TextView) findViewById(R.id.textview_website);
         TextView durationTV = (TextView) findViewById(R.id.textview_duration);
+        TextView courseTV = (TextView) findViewById(R.id.textview_course);
+
 
         String description = getIntent().getStringExtra(DESCRIPTION);
         String address = getIntent().getStringExtra(ADDRESS);
         String phoneNumber = getIntent().getStringExtra(PHONE_NUMBER);
         String website = getIntent().getStringExtra(WEBSITE);
         String duration = getIntent().getStringExtra(DURATION);
+        String organization = getIntent().getStringExtra(ORGANIZATION);
+        String course = getIntent().getStringExtra(COURSE);
 
+        //getActionBar().setTitle(organization);
+        getSupportActionBar().setTitle(organization);
+
+
+        courseTV.setText(course);
         descriptionTV.setText(" \u2022 " + description);
         addressTV.setText(" \u2022 " + address);
         phoneNumberTV.setText(" \u2022 " + phoneNumber);
