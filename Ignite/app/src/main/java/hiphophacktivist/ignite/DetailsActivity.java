@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.text.method.LinkMovementMethod;
 import android.view.View;
 import android.widget.TextView;
 
@@ -32,7 +33,7 @@ public class DetailsActivity extends AppCompatActivity{
 
 
         String description = getIntent().getStringExtra(DESCRIPTION);
-        String address = getIntent().getStringExtra(ADDRESS);
+        final String address = getIntent().getStringExtra(ADDRESS);
         String phoneNumber = getIntent().getStringExtra(PHONE_NUMBER);
         String website = getIntent().getStringExtra(WEBSITE);
         String duration = getIntent().getStringExtra(DURATION);
@@ -45,10 +46,19 @@ public class DetailsActivity extends AppCompatActivity{
 
         courseTV.setText(course);
         descriptionTV.setText(" \u2022 " + description);
+
+
         addressTV.setText(" \u2022 " + address);
+        addressTV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openMap(getBaseContext(), address + " NYC");
+            }
+        });
+
         phoneNumberTV.setText(" \u2022 " + phoneNumber);
         websiteTV.setText(" \u2022 " + website);
-        durationTV.setText(" \u2022 " + duration);
+        durationTV.setText(" \u2022 " + " Hours to comple: " + duration);
 
     }
 
