@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<List<CourseListing>> call, Throwable t) {
-                        Toast.makeText(MainActivity.this, "Cann't reach results at the moment, try again later.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, "Can't reach results at the moment, try again later.", Toast.LENGTH_SHORT).show();
                     }
                 });
     }
