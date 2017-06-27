@@ -70,6 +70,7 @@ public class DetailsActivity extends AppCompatActivity{
                 .appendQueryParameter("q", address);
         Intent intent = new Intent(Intent.ACTION_VIEW, uriBuilder.build());
         if (intent.resolveActivity(context.getPackageManager()) != null) {
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(intent);
             return true;
         }
